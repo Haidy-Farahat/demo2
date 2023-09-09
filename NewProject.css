@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.bar{
+    background-color: rgb(162, 195, 92);
+    width: 100%;
+    display: flex;
+    padding: 15px 200px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(149, 147, 147);
+}
+.navigation{
+    margin-left: 400px;
+}
+.icons{
+    margin-left: 20px;
+    padding-left: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-left: 1px solid whitesmoke;
+}
+.iconsright{
+    margin-left: 10px;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+}
+.iconsleft{
+    margin-left: 20px;
+    padding: 0px 20px;
+    color: whitesmoke;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+}
+.sec1{
+    width: 100%;
+    min-height: 100vh;   
+    background-size: cover;
+    background-position: center;
+    background: url(images2/slide_01.jpg) no-repeat;
+}
+.sec1 h1{
+    color: whitesmoke;
+    padding: 80px 200px;
+    font-size: 30px;
+}
+.menu{
+    font-size: larger;
+    margin-top: -115px;
+    margin-left: 700px ;
+}
+.choice{
+    padding: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.choice:hover{
+    color: rgb(162, 195, 92);
+    text-decoration: underline;
+}
+.sec1 h2{
+    padding: 150px 150px;
+    color: rgb(162, 195, 92);
+}
+.sec1 h3{
+    font-size: 50px;
+    margin: -140px 150px;
+    color: whitesmoke;
+}
+.sec1 P{
+    color: whitesmoke;
+    margin: 170px 150px;
+    line-height: 30px;
+}
+.click1{
+    margin: -130px 150px;
+}
+.click1 button{
+    background-color: rgb(162, 195, 92);
+    border: 1px solid rgb(162, 195, 92);
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 10px 20px;
+}
+.click1 button:hover{
+    color: rgb(162, 195, 92);
+    background-color: whitesmoke;
+}
+.sec2{
+    width: 100%;
+    height: 120px;
+    padding: 20px 150px;
+    color: whitesmoke;
+    background-color: rgb(162, 195, 92);
+}
+.para1{
+    margin-top: 5px;
+}
+.para2{
+    margin: 5px;
+}
+.click2{
+    margin: -60px 1000px;
+}
+.click2 button{
+    background-color: rgb(162, 195, 92);
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 10px 20px;
+}
+.click2 button:hover{
+    color: rgb(162, 195, 92);
+    background-color: whitesmoke;
+}
+.para3{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.para3 h1{
+    font-size: 35px;
+}
+.para3 span{
+    color: rgb(162, 195, 92);
+}
+.para3 p{
+    color: gray;
+    letter-spacing: 1px;
+}
+.cards{
+    display: flex;
+    margin-left: 280px;
+    flex-direction: row;
+}
+.card{
+    background-color: rgb(241, 241, 241);
+    margin-left: 20px;
+    width: 300px;
+    height: 500px;
+    margin-bottom: 150px;
+}
+.card img{
+    width: 300px;
+    height: 250px;
+}
+.card h3{
+    padding: 20px 0px;
+    margin-left: 10px;
+}
+.card p{
+    color: gray;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.click3 button{
+    background-color: rgb(162, 195, 92);
+    border: 2px solid rgb(162, 195, 92);
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+.click3 button:hover{
+    color: rgb(162, 195, 92);
+    background-color: whitesmoke;
+}
+.sec4{
+    width: 100%;
+    min-height: 100vh;   
+    background-size: cover;
+    background-attachment: fixed;
+    background: url(images2/fun-facts-bg.jpg) no-repeat;
+}
+.counters{
+    padding: 100px 750px;
+}
+.container{
+     display: flex;
+     place-items: left;
+     text-align: center;
+     font-size: 25px;
+}
+.counter-para{
+    background-color: gray;
+    opacity: 50%;
+    margin: 20px;
+    padding: 35px;
+    width: 10em;
+    height: 7em;
+}
+.letters{
+    color: whitesmoke;
+}
+.counter{
+    color: rgb(162, 195, 92);
+}
+.para4{
+    margin-top: -500px;
+    padding-left: 100px;
+    color: whitesmoke;
+}
+.p1{
+    font-size: 20px;
+}
+.p2{
+    font-size: 40px;
+    margin: 20px 0px 40px;
+}
+.p2 span{
+    color: rgb(162, 195, 92);
+}
+.p3{
+    margin-bottom: 40px;
+}
+.sec4 button{
+    margin: 50px 100px;
+}
+.sec4 button:hover{
+    border-color: whitesmoke;
+}
+.sec5{
+    width: 700px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.sec5 img{
+    width: 500px;
+    height: 450px;
+    margin: -50px 200px;
+}
+.para5{
+    width: 500px;
+    height: 450px;
+    margin: -404px 699px;
+    padding: 50px;
+    background-color: rgb(241, 241, 241);
+}
+.p4{
+    color: gray;
+    margin-bottom: 20px;
+}
+.p5{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.p5 span{
+    color: rgb(162, 195, 92);
+}
+.p6{
+    color: gray;
+    margin-bottom: 20px;
+}
+.sec5 div div button:hover{
+    border-color: whitesmoke;
+}
+.sec6{
+    background-color: rgb(241, 241, 241);
+}
+.para6{
+    text-align: center;
+    padding: 150px;
+}
+.para6 h1{
+    font-size: 40px;
+}
+.para6 h1 span{
+    color: rgb(162, 195, 92);
+}
+.para6 p{
+    color: gray;
+}
+.para7{
+    width: 500px;
+    height: 180px;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 200px;
+    background-color: rgb(255, 255, 255);
+}
+.para7 h3{
+    padding-top: 20px;
+}
+.para7 h5{
+    margin-top: 10px;
+    color: rgb(162, 195, 92);
+}
+.para7 p{
+    margin-top: 10px;
+    color: gray;
+}
+.para8{
+    width: 500px;
+    height: 180px;
+    text-align: center;
+    margin-top: -180px;
+    margin-left: 800px;
+    background-color: rgb(255, 255, 255);
+}
+.para8 h3{
+    padding-top: 20px;
+}
+.para8 h5{
+    margin-top: 10px;
+    color: rgb(162, 195, 92);
+}
+.para8 p{
+    margin-top: 10px;
+    color: gray;
+}
+.sec7{
+    padding-bottom: 150px;
+}
+.sec8{
+    margin-bottom: 150px;
+}
+.sec8 form{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-top: -50px;
+    border-radius: 50px;
+    background-color: rgb(162, 195, 92);
+}
+#name , #mail , #sub{
+    width: 250px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 40px 20px;
+    border: 1px solid whitesmoke;
+}
+#name{
+    margin-left: 80px;
+}
+#message{
+    width: 850px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 20px 80px;
+    border: 1px solid whitesmoke;
+}
+.sec8 form div button{
+    margin: 100px -560px;
+}
+.sec9{
+    height: 200px;
+    background-color: rgb(241, 241, 241);
+}
+.sec9 img{
+    margin-top: 80px;
+    margin-left: 175px;
+
+}
+footer{
+    height: 500px;
+    background-color: rgb(37, 37, 37);
+}
+.block1{
+    padding: 50px 150px;
+    color: whitesmoke;
+}
+.block1 p{
+    margin-top: 50px;
+    line-height: 30px;
+}
+.icons2{
+    margin: -20px 150px;
+}
+.icons3{
+    color: whitesmoke;
+    margin-right: 20px;
+}
+.icons3:hover{
+    color: rgb(162, 195, 92);
+}
+.block2{
+    margin: -225px 520px;
+    color: whitesmoke;
+}
+.block2 h2 {
+    margin-bottom: 45px;
+}
+.block2 a{
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 30px;
+}
+.block2 a:hover{
+    color: rgb(162, 195, 92);
+}
+.block3{
+    margin: -220px 800px;
+    color: whitesmoke;
+}
+.block3 h2 {
+    margin-bottom: 35px;
+}
+.block3 a{
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 30px;
+}
+.block3 a:hover{
+    color: rgb(162, 195, 92);
+}
+.block4{
+    margin: 0px 1100px;
+    color: whitesmoke;
+}
+.block4 h2 {
+    margin-bottom: 35px;
+}
+#name2 , #mail2{
+    width: 270px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    border: 1px solid rgb(75, 75, 75);
+    background-color: rgb(75, 75, 75);
+}
+#message2{
+    width: 270px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0px 20px;
+    border: 1px solid rgb(75, 75, 75);
+    background-color: rgb(75, 75, 75);
+}
+.block4 div button:hover{
+    border-color: whitesmoke;
+}
